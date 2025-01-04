@@ -1,0 +1,435 @@
+.body {
+    background-color: white;
+}
+
+.container {
+    display: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #0c162c;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.header-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.header-logo {
+    width: 24%;
+    height: 29.5px;
+}
+
+.header-logo-text {
+    color: #0c162c;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Neue-Haas-Grotesk;
+}
+
+.header-navigator {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-navigator-button {
+    background-image: url('../html/menu-icon.png');
+    background-size: contain;
+}
+
+.header-navigator-en {
+    text-align: center;
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 13px;
+    color: #0c162c;
+}
+
+.header-navigator-jp {
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 16px;
+    color: #192f60;
+    text-align: center;
+}
+
+.header-navigator-tel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    height: 56px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+}
+
+.header-navigator-tel-num {
+    color: #192f60;
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.header-navigator-tel-text {
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 16px;
+    color: #192f60;
+}
+
+.header-mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    padding: 0 20px;
+    height: 80px;
+    background: #20868a
+}
+
+.header-mail:hover {
+    background-color: #36c0c5
+}
+
+.header-mail-text {
+    text-align: center;
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.header-mail-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.top-hero-text1-bg {
+    position: relative;
+    width: 913px;
+    left: 113px;
+    display: flex;
+    align-items: center;
+    height: 86px;
+    background-color: #ffffff;
+    text-align: center;
+    top: 180px;
+    left: 113px;
+}
+
+.top-hero-text2-bg {
+    position: relative;
+    width: 913px;
+    left: 113px;
+    display: flex;
+    align-items: center;
+    height: 86px;
+    background-color: #ffffff;
+    text-align: center;
+    top: 188px;
+    left: 113px;
+}
+
+.top-hero-text3-bg {
+    position: relative;
+    width: 347px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+    top: 212px;
+    left: 113px;
+}
+
+.top-hero-img {
+    height: 755px;
+    background-image: url('../html//fv-img01.png');
+    background-size: 100% 100%;
+
+}
+
+.top-hero-text1 {
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 60px;
+    font-style: normal;
+    letter-spacing: 14px;
+    margin: 0 4px 0 16px;
+    text-align: left;
+    color: #192f60;
+}
+
+.top-hero-text2 {
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 60px;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin: 0 4px 0 16px;
+    text-align: left;
+    color: #192f60;
+}
+
+.top-hero-text3 {
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 0 4px 0 16px;
+    text-align: left;
+    color: #192f60;
+}
+
+.top-tel {
+    width: 240px;
+    height: 56px;
+}
+
+.top-hero-tel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 322px;
+    left: 113px;
+    width: 240px;
+    height: 56px;
+    background: #192f60
+}
+
+.top-hero-tel-num {
+    color: #ffffff;
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.top-hero-tel-text {
+    font-family: "Heisei Kaku Gothic Std";
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.top-hero-button {
+    width: 240px;
+    height: 56px;
+    text-align: center;
+    top: 266px;
+    left: 433px;
+    position: relative;
+    background: #20868a;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 56px;
+}
+
+.top-hero-button:hover {
+    background-color: #36c0c5
+}
+
+.top-news {
+    width: 92%;
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    top: -27px;
+    background-color: white;
+    right: -8%;
+}
+
+.top-news-text1 {
+    position: relative;
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 22px;
+    left: 41px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #192f60;
+}
+
+.top-news-text3 {
+    /* タイトルテキストリンクタイトルテキストリンクタイトルテキストリンク */
+    position: relative;
+    font-family: "Heisei Kaku Gothic Std";
+    font-size: 16px;
+    font-weight: normal;
+    left: 238px;
+    line-height: 27.200000762939453px;
+    font-style: normal;
+    text-align: left;
+    color: #2d2d2d;
+}
+
+.top-news-text2 {
+    /* 2020/00/00 */
+
+    position: relative;
+    font-family: "Quicksand";
+    font-size: 16px;
+    left: 207px;
+    font-weight: normal;
+    line-height: 27.200000762939453px;
+    font-style: normal;
+    text-align: left;
+    color: #2d2d2d;
+}
+
+.header-navigator-mb {
+    display: none;
+}
+
+.header-mb-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    line-height: 10px;
+}
+
+@media (min-width:1060px) {
+    .header-navigator-mb {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .container {
+        display: block;
+    }
+
+    .top-hero-text1,
+    .top-hero-text2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .top-hero-text1-bg,
+    .top-hero-text2-bg {
+        width: 500px;
+    }
+
+    .header-navigator {
+        display: none;
+    }
+
+    .header-navigator-tel {
+        display: none;
+    }
+
+    .header-mail {
+        display: none;
+    }
+
+    .top-news {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        right: unset;
+        width: 100%;
+    }
+
+    .top-news-text1,
+    .top-news-text2,
+    .top-news-text3 {
+        left: unset;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .top-hero-text1,
+    .top-hero-text2 {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
+
+    .top-hero-text1-bg,
+    .top-hero-text2-bg {
+        width: 60%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .top-hero-text3 {
+        font-size: 15px;
+    }
+
+    .top-hero-text3-bg {
+        width: 300px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .top-hero-tel {
+        left: 50%;
+        transform: translate(-50%);
+        top: 280px;
+    }
+
+    .top-hero-button {
+        top: 320px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .top-news-text3 {
+        padding: 0px 20px;
+        text-align: center;
+    }
+}
+@media (max-width:758px) {
+
+    .top-hero-text1,
+    .top-hero-text2 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+}
+@media (max-width:500px) {
+
+    .top-hero-text1,
+    .top-hero-text2 {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+}
+
+
